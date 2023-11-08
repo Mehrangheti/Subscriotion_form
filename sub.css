@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif;
+}
+
+
+.container{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.left{
+    background-image:linear-gradient(rgba(0,0,0,0.82),rgba(0,0,0,0.82) ), url(img/image.png);
+    flex-grow: 0.4;
+    flex-basis: 50;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+.left img{
+    width: 200px;
+   
+   
+}
+
+.left li{
+    list-style: none;
+    
+}
+
+.list img{
+    width: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+
+
+.li{
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.lis{
+    list-style: none ;
+    font-size: 30px;
+    font-style: bold;
+ 
+}
+.lis img{
+    width: 20px;
+    padding-right: 10px;
+}
+
+.right{
+    height: 100vh;
+    display: block;
+    flex-grow: 0.6;
+   
+    padding-left: 30px;
+}
+
+.li{
+    font-size: 30px;
+   box-shadow: 0 0 7px rgb(124, 122, 122);
+   padding: 10px;
+   
+   margin: 10px;
+   display: flex;
+   justify-content: space-between;
+   width: 60%;
+   margin-top: 15px;
+}
+
+
+
+.small{
+    font-size: 10px;
+    color: gray;
+    padding: 20px;
+}
+
+
+form{
+    padding-left: 15px;
+}
+
+label{
+    font-size: 15px ;
+    margin-top: 15px;
+
+}
+
+input{
+    width: 62%;
+    height: 30px;
+    margin-top: 10px;
+    outline: none;
+    padding-left: 10px;
+}
+
+
+button{
+    width: 200px;
+    height: 35px;
+    color:white;
+    border-style: none;
+    background-color: rgb(235, 49, 80);
+    
+}
